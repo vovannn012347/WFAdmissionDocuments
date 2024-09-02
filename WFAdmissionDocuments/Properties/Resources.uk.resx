@@ -1,0 +1,342 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="DocumentSetName_Text" xml:space="preserve">
+    <value>Назва набору документів</value>
+  </data>
+  <data name="DocumentSetSettingsForm_DisplayBorderBoxes_Text" xml:space="preserve">
+    <value>Додавати рамки для введеного тексту</value>
+  </data>
+  <data name="DocumentSetSettingsForm_EmbedFonts_Text" xml:space="preserve">
+    <value>Встроювання шрифтів в вихідний пдф документ</value>
+  </data>
+  <data name="DocumentSetSettingsForm_PrePrintedPage_Text" xml:space="preserve">
+    <value>Додавати сторінки для попереднього друку</value>
+  </data>
+  <data name="DocumentSetSettingsForm_Title" xml:space="preserve">
+    <value>Налаштування набору документів</value>
+  </data>
+  <data name="DocumentSetsListForm_AddPageDocumentSet_Text" xml:space="preserve">
+    <value>Вибрати сторінки</value>
+  </data>
+  <data name="DocumentSetsListForm_DocumentSetOps_Text" xml:space="preserve">
+    <value>Набір</value>
+  </data>
+  <data name="DocumentSetsListForm_EditTemplate_Text" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+  <data name="DocumentSetsListForm_EditValues_Text" xml:space="preserve">
+    <value>Редагувати поля</value>
+  </data>
+  <data name="DocumentSetsListForm_LoadTemplate_Text" xml:space="preserve">
+    <value>Завантажити</value>
+  </data>
+  <data name="DocumentSetsListForm_NewDocumentSet_Text" xml:space="preserve">
+    <value>Новий набір</value>
+  </data>
+  <data name="DocumentSetsListForm_NewPageTemplate_Text" xml:space="preserve">
+    <value>Нова сторінка</value>
+  </data>
+  <data name="DocumentSetsListForm_Reload_Text" xml:space="preserve">
+    <value>Перезавантажити список</value>
+  </data>
+  <data name="DocumentSetsListForm_RemoveUniversal_Text" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="DocumentSetsListForm_SettingsGeneral_Text" xml:space="preserve">
+    <value>Загальні налаштування</value>
+  </data>
+  <data name="DocumentSetsListForm_SettingsUniversal_Text" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="DocumentSetsListForm_TemplateOps_Text" xml:space="preserve">
+    <value>Сторінка</value>
+  </data>
+  <data name="DocumentSetsListForm_Title" xml:space="preserve">
+    <value>Набір документів</value>
+  </data>
+  <data name="DocumentSetsListForm_ToPfdUniversal_Text" xml:space="preserve">
+    <value>Для печаті</value>
+  </data>
+  <data name="DocumentSetsListForm_UniversalOps_Text" xml:space="preserve">
+    <value>Для всіх</value>
+  </data>
+  <data name="ExcelPath_Text" xml:space="preserve">
+    <value>Шлях до файлу Excel</value>
+  </data>
+  <data name="ExportToExcelFile_Text" xml:space="preserve">
+    <value>Експорт в Excel</value>
+  </data>
+  <data name="FileName_Text" xml:space="preserve">
+    <value>Назва файлу</value>
+  </data>
+  <data name="GeneralSettingsForm_DefaultFont_Text" xml:space="preserve">
+    <value>Стандартний шрифт</value>
+  </data>
+  <data name="GeneralSettingsForm_Language_Text" xml:space="preserve">
+    <value>Мова</value>
+  </data>
+  <data name="GeneralSettingsForm_PdfBorderThickness_Text" xml:space="preserve">
+    <value>Товщина рамок в пдф документі</value>
+  </data>
+  <data name="GeneralSettingsForm_RegexHistoryCount_Text" xml:space="preserve">
+    <value>Історія регулярних виразів (штук)</value>
+  </data>
+  <data name="GeneralSettingsForm_Title" xml:space="preserve">
+    <value>Загальні налаштування</value>
+  </data>
+  <data name="InputKeyPropertiesAdditionalDataForm_KeyDatas_Title" xml:space="preserve">
+    <value>Додаткові дані</value>
+  </data>
+  <data name="InputKeyPropertiesAdditionalDataForm_Title" xml:space="preserve">
+    <value>Додаткові двні для поля</value>
+  </data>
+  <data name="Language_English" xml:space="preserve">
+    <value>Англійська</value>
+  </data>
+  <data name="Language_Ukrainian" xml:space="preserve">
+    <value>Українська</value>
+  </data>
+  <data name="Ok_Text" xml:space="preserve">
+    <value>Ок</value>
+  </data>
+  <data name="RegexTesterForm_CaptureGroup_Text" xml:space="preserve">
+    <value>Група захоплення</value>
+  </data>
+  <data name="RegexTesterForm_RegexHelp_Text" xml:space="preserve">
+    <value>Регулярки 101</value>
+  </data>
+  <data name="RegexTesterForm_RegexHistory_Text" xml:space="preserve">
+    <value>Історія виразів</value>
+  </data>
+  <data name="RegexTesterForm_RegularExpression_Text" xml:space="preserve">
+    <value>Регулярний вираз (треба хоч 1 група захоплення/співпадіння) </value>
+  </data>
+  <data name="RegexTesterForm_Result_Text" xml:space="preserve">
+    <value>Результат</value>
+  </data>
+  <data name="RegexTesterForm_RunRegex_Text" xml:space="preserve">
+    <value>Вибрати</value>
+  </data>
+  <data name="RegexTesterForm_Text_Text" xml:space="preserve">
+    <value>Текст</value>
+  </data>
+  <data name="RegexTesterForm_Title" xml:space="preserve">
+    <value>Тестування регулярок</value>
+  </data>
+  <data name="Save_Text" xml:space="preserve">
+    <value>Зберегти</value>
+  </data>
+  <data name="SelectTemplatesForm_Title" xml:space="preserve">
+    <value>Вибір сторінок</value>
+  </data>
+  <data name="TemplateCreateForm_Title" xml:space="preserve">
+    <value>Новий шаблон сторінки</value>
+  </data>
+  <data name="TemplateEditForm_BringToFrontToolStrip_Text" xml:space="preserve">
+    <value>Винести вперед</value>
+  </data>
+  <data name="TemplateEditForm_CloseToolStrip_Text" xml:space="preserve">
+    <value>Закрити</value>
+  </data>
+  <data name="TemplateEditForm_DeleteToolStrip_Text" xml:space="preserve">
+    <value>Видалити</value>
+  </data>
+  <data name="TemplateEditForm_EditToolStrip_Text" xml:space="preserve">
+    <value>Редагувати</value>
+  </data>
+  <data name="TemplateEditForm_FileToolStrip_Text" xml:space="preserve">
+    <value>Файл</value>
+  </data>
+  <data name="TemplateEditForm_NewToolStrip_Text" xml:space="preserve">
+    <value>Новий</value>
+  </data>
+  <data name="TemplateEditForm_OpenTemplateFileToolStrip_Text" xml:space="preserve">
+    <value>Відкрити шаблон</value>
+  </data>
+  <data name="TemplateEditForm_OpenToolStrip_Text" xml:space="preserve">
+    <value>Відкрити</value>
+  </data>
+  <data name="TemplateEditForm_palleteGroupBox_Text" xml:space="preserve">
+    <value>Елементи</value>
+  </data>
+  <data name="TemplateEditForm_PalleteImage_Text" xml:space="preserve">
+    <value>Зображення</value>
+  </data>
+  <data name="TemplateEditForm_PalleteTextMultiline_Text" xml:space="preserve">
+    <value>Багатострокове поле виводу тексту</value>
+  </data>
+  <data name="TemplateEditForm_PalleteTextRegex_Text" xml:space="preserve">
+    <value>Поле виводу тексту (регулярний вираз)</value>
+  </data>
+  <data name="TemplateEditForm_PalleteTextTemplate_Text" xml:space="preserve">
+    <value>Поле виводу тексту</value>
+  </data>
+  <data name="TemplateEditForm_PalleteText_Text" xml:space="preserve">
+    <value>Статичний текст</value>
+  </data>
+  <data name="TemplateEditForm_palleteToolStrip_Text" xml:space="preserve">
+    <value>Елементи</value>
+  </data>
+  <data name="TemplateEditForm_PrintToolStrip_Text" xml:space="preserve">
+    <value>Зберегти пдф</value>
+  </data>
+  <data name="TemplateEditForm_PropertiesToolStrip_Text" xml:space="preserve">
+    <value>Властивості</value>
+  </data>
+  <data name="TemplateEditForm_regExTestToolStrip_Text" xml:space="preserve">
+    <value>Тест регулярок</value>
+  </data>
+  <data name="TemplateEditForm_SaveAsToolStrip_Text" xml:space="preserve">
+    <value>Зберегти як</value>
+  </data>
+  <data name="TemplateEditForm_SendToBackToolStrip_Text" xml:space="preserve">
+    <value>Винести назад</value>
+  </data>
+  <data name="TemplateEditForm_SettingsToolStrip_Text" xml:space="preserve">
+    <value>Налаштування</value>
+  </data>
+  <data name="TemplateEditForm_StashToolStrip_Text" xml:space="preserve">
+    <value>Всяке</value>
+  </data>
+  <data name="TemplateEditForm_Title" xml:space="preserve">
+    <value>Редагування шаблону</value>
+  </data>
+  <data name="TemplateEditForm_ViewToolStrip_Text" xml:space="preserve">
+    <value>Вигляд</value>
+  </data>
+  <data name="TemplateElementPropertiesForm_Title" xml:space="preserve">
+    <value>Властивості</value>
+  </data>
+  <data name="TemplateName_Text" xml:space="preserve">
+    <value>Назва шаблону</value>
+  </data>
+  <data name="TemplateSettingsForm_DisplayBorderBoxes_Text" xml:space="preserve">
+    <value>Додавати рамки для введеного тексту (переписується налаштуванням набору документів)</value>
+  </data>
+  <data name="TemplateSettingsForm_EmbedFonts_Text" xml:space="preserve">
+    <value>Встроювання шрифтів в вихідний пдф документ (переписується налаштуванням набору документів)</value>
+  </data>
+  <data name="TemplateSettingsForm_PrePrintedPage_Text" xml:space="preserve">
+    <value>Додавати сторінки для попереднього друку (переписується налаштуванням набору документів)</value>
+  </data>
+  <data name="TemplateSettingsForm_Title" xml:space="preserve">
+    <value>Налаштування шаблону</value>
+  </data>
+</root>
