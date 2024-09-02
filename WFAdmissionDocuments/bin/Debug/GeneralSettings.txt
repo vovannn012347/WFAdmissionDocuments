@@ -1,1 +1,0 @@
-{"PdfElementBorderWidth":0.3,"DefaultFontSize":9.75,"RegexHistoryCount":40,"DefaultFont":"Times New Roman, 9.75pt","Language":0}
