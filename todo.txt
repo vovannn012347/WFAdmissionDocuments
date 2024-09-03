@@ -1,0 +1,12 @@
+>list of enhancements that are left to be done
+- add translation to few non-translated parts
+- add more cell types
+-- datetime
+-- image
+--- add image input element type to template editor
+- add help
+- unify key variable settigns for documentsets and templates
+- make document sets reside each in its own folder
+-- add posibility to pass templates by copy/reference for document sets
+--- refence - references general template, editing template changes it for all other document sets, does not edit template copies
+--- copy - copies template (version on time of passing, with all related files) to document set, editing this tempalte edits it only for this document  
